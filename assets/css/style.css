@@ -34,20 +34,22 @@ h1, h2{
     letter-spacing: 4px;
 }
 
-#menu, #logo{line-height: 75px;
+#menu, #logo {
+    line-height: 75px;
 }
-#menu li{
+
+#menu li {
     float: right;
     margin-right: 30px;
     list-style-type: none;
     }
 
-    #menu a{
+    #menu a {
         text-decoration: none;
-        color:inherit;
+        color: inherit;
     }
     
-    #menu a:hover{
+    #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
     .active {
@@ -59,10 +61,12 @@ h1, h2{
     height: 600px;
     width: 100%;
     overflow: hidden;
+    
+    
     position: relative;
 }
  
-#cover-text, #cover-text h2{
+#cover-text, #cover-text h2 {
     color:#fff;
 
 }
@@ -90,7 +94,7 @@ animation-fill-mode: forwards;
         transform: scale(1.1);
     }
 }
-+cover-text{
+#cover-text {
     font-size: 130%;
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
@@ -112,6 +116,7 @@ animation-fill-mode: forwards;
 }
 
 /* club ethos*/
+
 #club-ethos {
     height: 600px;
 }
@@ -120,18 +125,50 @@ animation-fill-mode: forwards;
     padding-top: 30px;
     width: 33%;
     float: left;
-    background: blue;
+    
 }
 
-#right-about{
+#right-about {
     padding-top: 30px;
     width: 33%;
     float: right;
-    background: silver;
+    
 }
 
-#center-about{
+#center-about {
     width: 33%;
     margin: 0 auto;
-    background: green;
+    
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading h2 {
+    text-align: right;
+
+}
+
+.right-about-heading p {
+    text-align: right;
+
 }
